@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /* body{
+        background-image: url('/img/background.png');
+        background-repeat: no-repeat;
+        background-size: 90% 90%;
+    } */
+    p{
+        font-size: 16px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkslategray;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+    }
+    .header a{
+        width: 100px;
+        margin: auto;
+    }
+    .header img{
+        width: 100px;
+        margin: auto;
+    }.header a:hover{
+        cursor: pointer;
+    }
+    .header p{
+        margin: auto;
+    }
+    .header_label_1{
+        font-size: 30px;
+    }
+    .header_label_2{
+        font-size: 26px;
+    }
+
+
+    .main_label{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 300px;
+    }
+    .main_label p{
+        font-size: 40px;
+    }
+    .main_label img{
+        width: 150px;
+        margin: auto;
+    }
+
+
+
+    .benefits{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+    }
+    .benefits div{
+        display: flex;
+        flex-direction: row;
+    }
+    .benefits p{
+        font-size: 34px;
+        padding: auto;
+        margin: auto;
+    }
+    .benefits div img{
+        width: 200px;
+        margin: auto;
+    }
+
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        height:150px;
+    }
+    .buttons button p{
+        font-size: 30px;
+        padding: auto;
+        margin:auto;
+    }
+    .button-37 {
+        margin-left: 350px;
+        background-color: #13aa52;
+        border: 1px solid #13aa52;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
+        outline: 0;
+        /* padding: 10px 25px; */
+        padding: auto;
+        margin: 30px auto;
+        text-align: center;
+        transform: translateY(0);
+        transition: transform 150ms, box-shadow 150ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .button-37:hover {
+        box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+        transform: translateY(-2px);
+    }
+
+    @media (min-width: 768px) {
+        .button-37 {
+            padding: 10px 30px;
+        }
+    }
+
+</style>
+
+<body class="container">
+    <div class="header">
+        <p class="header_label_1">Новостройки Москвы</p>
+        <p class="header_label_2">Telegram канал выгодных предложений среди новостроек</p>
+        <a href="https://t.me/+VKMfQxduFMNiNDcy"><img src="/img/tg_logo.png" alt="" target="blank"></a>
+    </div>
+
+    <div class="main_label">
+        <p>Хотите приобрести квартиру в новостройке по наиболее выгодной цене в любом ЖК Москвы?</p>
+        <img src="/img/qr-code.png" alt="">
+    </div>
+
+    <div class="benefits">
+        <div>
+            <img src="/img/check.png" alt="">
+            <p>Бесплатная подписка</p>
+        </div>
+
+        <div>
+            <img src="/img/check.png" alt="">
+            <p>Ежедневное обоновление</p>
+        </div>
+
+        <div>
+            <img src="/img/check.png" alt="">
+            <p>Прозрачные расчеты</p>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button class="button-37" role="button">
+            <a href="https://t.me/+VKMfQxduFMNiNDcy" target="blank" style="
+            text-decoration:none;">
+                <p>Перейти в канал</p>
+            </a>
+        </button>
+    </div>
+</body>
+</html>
